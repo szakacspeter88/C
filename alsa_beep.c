@@ -1,3 +1,16 @@
+/*
+This C source plays a Beep Sound on Linux using ALSA
+
+1. Install Prerequisites
+sudo pacman -S alsa-lib pipewire-alsa
+
+2. Compile the Source
+gcc beep.c -o beep -lasound -lm
+
+3. Execute it:
+./beep
+*/
+
 #include <alsa/asoundlib.h>
 #include <math.h>
 #include <stdio.h>
