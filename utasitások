@@ -1,8 +1,15 @@
 1. Felrakod a csomagokat:
+
+```
 sudo pacman -S alsa-lib pipewire-alsa
+```
 
 2. Lefordítod a forráskódot:
+```
 gcc beep.c -o beep -lasound -lm
+```
 
 3. Futtatod:
+```
 ./beep
+```
