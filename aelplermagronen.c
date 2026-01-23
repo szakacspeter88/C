@@ -1,38 +1,38 @@
 #include <stdio.h>
 
 int main() {
-    int adag;
+    int Portion;
 
     // Swiss German Greetings and Question
     printf("=== Älplermagrone-Rächner ===\n");
     printf("Für wie vill Persone wotsch choche? ");
     scanf("%d", &portion);
 
-    printf("\n--- Zuetate für %d Persone ---\n", adag);
+    printf("\n--- Zuetate für %d Persone ---\n", portion);
 
     // Apfelmus (Opfelmuas)
     printf("\n[Opfelmuas]\n");
-    printf("- %.2f g Öpfel (z.B. Boskoop, gschelt und gschnitte)\n", 150.0 * adag);
-    printf("- %.2f dl Öpfelsaft\n", 0.25 * adag);
-    printf("- %.2f EL Zucker\n", 0.65 * adag);
-    printf("- %.2f Zimtstange\n", 0.25 * adag);
+    printf("- %.2f g Öpfel (z.B. Boskoop, gschelt und gschnitte)\n", 150.0 * portion);
+    printf("- %.2f dl Öpfelsaft\n", 0.25 * portion);
+    printf("- %.2f EL Zucker\n", 0.65 * portion);
+    printf("- %.2f Zimtstange\n", 0.25 * portion);
 
     // Hauptgang (Hauptmollziit)
     printf("\n[Magrone und Härdöpfel]\n");
-    printf("- %.2f g Härdöpfel (feschtochig, i 1cm Würfeli)\n", 150.0 * adag);
-    printf("- %.2f g Magrone (oder Hörnli)\n", 63.0 * adag);
-    printf("- %.2f g Chäs (griibe)\n", 63.0 * adag);
-    printf("- %.2f dl Vollrahm\n", 0.25 * adag);
+    printf("- %.2f g Härdöpfel (feschtochig, i 1cm Würfeli)\n", 150.0 * portion);
+    printf("- %.2f g Magrone (oder Hörnli)\n", 63.0 * portion);
+    printf("- %.2f g Chäs (griibe)\n", 63.0 * portion);
+    printf("- %.2f dl Vollrahm\n", 0.25 * portion);
     printf("- Gwürz: Salz, Pfäffer, Muskatnuss\n");
 
     // Zwiebelschwitze (Zwiebele-Schvitz)
     printf("\n[Zwiebele-Schvitz]\n");
-    printf("- %.2f Zwiebele (i Ringe)\n", 0.5 * adag);
-    printf("- %.2f EL Mähl\n", 0.35 * adag);
+    printf("- %.2f Zwiebele (i Ringe)\n", 0.5 * portion);
+    printf("- %.2f EL Mähl\n", 0.35 * portion);
     printf("- Bratbutter zum Aabrote\n");
 
 
-    // Elkészítés (Zubereitung)
+    // How to Prepare (Zubereitung)
     printf("\n======================================\n");
     printf("        ZUBEREITIG (Schritt für Schritt)\n");
     printf("======================================\n");
