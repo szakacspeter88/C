@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int Portion;
+    int portion;
 
     // Swiss German Greetings and Question
     printf("=== Älplermagrone-Rächner ===\n");
