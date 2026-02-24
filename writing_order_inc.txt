@@ -1,0 +1,13 @@
+Peter, [2/24/26 11:34 PM]
+ez volt?
+
+Máté, [2/24/26 11:47 PM]
+Ilyen sorrendben írjuk be a scanf-et:
+
+scanf
+scanf()
+scanf();
+scanf(,);
+scanf("",);
+scanf("%d",);
+scanf("%d",&var);
