@@ -66,7 +66,7 @@ int main(void)
 
   printf("Enter your name: ");
   scanf("%s", name);
-  printf("Hello %s, its nice to have you aboard", name);
+  printf("Hello %s, its nice to have you aboard!\n", name);
 
   return 0;
 }
