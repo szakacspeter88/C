@@ -71,3 +71,5 @@ int main(void)
   return 0;
 }
 ```
+
+## Bekérjük a felhasználótól a nevét és életkorát, és ezt kiirjuk.
