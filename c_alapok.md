@@ -50,7 +50,7 @@ int main(void)
 
   printf("Enter a number: ");
   scanf("%d", &var);
-  printf("The given number is %d", var);
+  printf("The given number is %d\n", var);
 
   return 0;
 }
