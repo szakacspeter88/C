@@ -102,7 +102,7 @@ int main(void)
     int var=0;
     
     printf("I would like to have a number from" 
-        "you which I can save for you, please give me a number: \n");
+        "you which I can save for you, please give me a number: ");
     scanf("%d", &var);
     printf("I saved the number you gave me into the adress, %p\n", &var);
 
