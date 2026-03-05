@@ -85,7 +85,7 @@ int main(void)
   scanf("%s", name);
   printf("Its nice to meet you %s, tell me please, how old are you excatly?\n", name);
   scanf("%d", &age);
-  printf("So %s, its good to know that you are %d years old" name, &age);
+  printf("So %s, its good to know that you are %d years old\n", name, age);
   return 0;
 }
 ```
