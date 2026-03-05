@@ -36,3 +36,21 @@ int main(void)
   return 0;
 }
 ```
+
+## Scan a Variable
+
+
+```C
+#include <stdio.h>
+
+int main(void)
+{
+  int var=0;
+
+  printf("Enter a number: ")
+  scanf("%d", &var);
+  printf("The given number is %d", var);
+
+  return 0;
+}
+```
