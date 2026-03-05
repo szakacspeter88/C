@@ -91,3 +91,22 @@ int main(void)
   return 0;
 }
 ```
+
+## Read a number and print its memory address
+
+```C
+#include <stdio.h>
+
+int main(void)
+{
+    int var=0;
+    
+    printf("I would like to have a number from" 
+        "you which I can save for you, please give me a number: \n");
+    scanf("%d", &var);
+    printf("I saved the number you gave me into the adress, %p\n", &var);
+
+    return 0;
+
+}
+```
