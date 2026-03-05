@@ -48,7 +48,7 @@ int main(void)
 {
   int var=0;
 
-  printf("Enter a number: ")
+  printf("Enter a number: ");
   scanf("%d", &var);
   printf("The given number is %d", var);
 
