@@ -72,7 +72,7 @@ int main(void)
 }
 ```
 
-## Request name and age of the user, wish happy birthday
+## Request name and age of the user, and print them
 
 ```C
 #include <stdio.h>
@@ -86,7 +86,7 @@ int main(void)
   scanf("%s", name);
   printf("Its nice to meet you %s, tell me please, how old are you excatly?\n", name);
   scanf("%d", &age);
-  printf("So %s, its good to know that you are %d years old\n", name, age);
+  printf("So %s, it's good to know that you are %d years old\n", name, age);
 
   return 0;
 }
