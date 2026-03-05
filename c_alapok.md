@@ -73,3 +73,19 @@ int main(void)
 ```
 
 ## Bekérjük a felhasználótól a nevét és életkorát, és ezt kiirjuk.
+
+```C
+#include <stdio.h>
+
+int main(void)
+{
+  char name[50];
+  int age=0;
+  printf("Hi It's a pleasure to see you around, what is your name?\n");
+  scanf("%s", name);
+  printf("Its nice to meet you %s, tell me please, how old are you excatly?\n", name);
+  scanf("%d", &age);
+  printf("So %s, its good to know that you are %d years old" name, &age);
+  return 0;
+}
+```
