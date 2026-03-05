@@ -1,10 +1,12 @@
 # C Basics
 
+## Must have
 
 ```C
 #include <stdio.h>
 
-int main(void){
+int main(void)
+{
   printf ("Hello World");
   return 0;
 }
