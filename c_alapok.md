@@ -32,12 +32,13 @@ int main(void)
 int main(void)
 {
   int var=15;
+
   printf("%d\n", var);
   return 0;
 }
 ```
 
-## Scan a Variable
+## Scan a Variable and print it
 
 
 ```C
