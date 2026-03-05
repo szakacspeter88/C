@@ -23,3 +23,16 @@ int main(void)
   return 0;
 }
 ```
+
+
+
+```C
+#include <stdio.h>
+
+int main(void)
+{
+  int var=15;
+  printf("%d\n", var);
+  return 0;
+}
+```
