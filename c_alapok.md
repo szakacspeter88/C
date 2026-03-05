@@ -65,7 +65,7 @@ int main(void)
   char name[50];
 
   printf("Enter your name: ");
-  scanf("%s" , name);
+  scanf("%s", name);
 
   return 0;
 }
