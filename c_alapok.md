@@ -24,7 +24,7 @@ int main(void)
 }
 ```
 
-
+## Print a number
 
 ```C
 #include <stdio.h>
