@@ -112,10 +112,16 @@ int main(void)
 ```
 ## Home Work
 
-```
-  Google használható, de AI nem!
+```C
+#include <stdio.h>
 
-  Készts egy INT to ASCII konvertert!
-  Kérj be egy egész számot ( ASCII code ),
-  majd ird ki az ennek megfelelő ASCII karaktert!
+int main(void)
+{
+    int var=0;
+    printf("What is the ascii code: ");
+    scanf("%d",&var);
+    printf("The character is: %c \n", var);
+
+    return 0;
+}
 ```
