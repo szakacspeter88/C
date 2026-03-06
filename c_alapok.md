@@ -110,12 +110,12 @@ int main(void)
 
 }
 ```
-## Hone Work
+## Home Work
 
 ```
   Google használható, de AI nem!
 
   Készts egy INT to ASCII konvertert!
-  Kérj be egy egész számot ( ASCII code )
+  Kérj be egy egész számot ( ASCII code ),
   majd ird ki az ennek megfelelő ASCII karaktert!
 ```
