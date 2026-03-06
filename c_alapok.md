@@ -110,7 +110,7 @@ int main(void)
 
 }
 ```
-## Home Work
+## ASCII character print from number
 
 ```C
 #include <stdio.h>
