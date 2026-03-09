@@ -1,10 +1,12 @@
-# Birthsday
+#Birthsday
 
+
+```C
 #include <stdio.h>
 
 int main(void)
 {
-  ```C
+  
   char[50]=0
   int age=0
   printf("Hello and welcome.\n");
@@ -14,7 +16,7 @@ int main(void)
   printf("Its nece to meet you &name, tell me please how old are you?");
   scanf("%d", &age);
   printf("Okay &name", its nice to know that you are &age years old, you have a nice age!)
-  ```
 
   return 0;
 }
+```
