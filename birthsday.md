@@ -7,15 +7,15 @@
 int main(void)
 {
   
-  char[50]=0
-  int age=0
+  char name[50];
+  int age = 0;
   printf("Hello and welcome.\n");
 
-  printf("I would like to know your name: \n")
-  scanf("%s", &name);
-  printf("Its nece to meet you &name, tell me please how old are you?");
+  printf("I would like to know your name: \n");
+  scanf("%s", name);
+  printf("Its nece to meet you %s, tell me please how old are you?: \n", name);
   scanf("%d", &age);
-  printf("Okay &name", its nice to know that you are &age years old, you have a nice age!)
+  printf("Okay %s, its nice to know that you are %d years old, you have a nice age!\n",name ,age);
 
   return 0;
 }
